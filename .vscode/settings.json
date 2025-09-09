@@ -1,0 +1,12 @@
+{
+    "java.project.referencedLibraries": {
+        "include": [
+            "backend/libs/**/*.jar",
+            "c:\\Users\\olive\\Downloads\\gson-2.10.1.jar"
+        ],
+        "exclude": [
+            "c:\\Users\\olive\\Downloads\\gson-2.11.0.jar",
+            "backend/libs/gson.jar"
+        ]
+    }
+}
