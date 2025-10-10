@@ -73,6 +73,9 @@ function Sidebar({ isOpen }) {
             <NavLink to="/chatbot">
                 <Icon>💬</Icon> ChatBot
             </NavLink>
+            <NavLink to="/administrador">
+                <Icon>💬</Icon> Administrador
+            </NavLink>
             <NavLink to="/">
                 <Icon>🚪</Icon> Sair
             </NavLink>

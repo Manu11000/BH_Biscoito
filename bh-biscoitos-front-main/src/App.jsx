@@ -18,7 +18,7 @@ import ReportsPage from './pages/ReportsPage.jsx';
 import ChatBot from "./pages/ChatBot";
 import { getProdutos } from './services/apiService.js';
 import Products from "./pages/Products.jsx";
-
+import Exclusion from "./pages/Exclusao.jsx";
 
 
 const MainLayout = styled.div`
@@ -78,6 +78,7 @@ function App() {
                         <Route path="/clientes" element={<ClientsPage isSidebarOpen={isSidebarOpen} />} />
                         <Route path="/relatorios" element={<ReportsPage isSidebarOpen={isSidebarOpen} />} />
                         <Route path="/chatbot" element={<ChatBot isSidebarOpen={isSidebarOpen} />} />
+                        <Route path="/administrador" element={<Exclusion isSidebarOpen={isSidebarOpen} />} />
                     </Routes>
                 </MainContent>
             </ContentWrapper>
